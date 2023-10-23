@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
