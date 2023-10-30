@@ -8,7 +8,7 @@
     <meta name="keywords" content="Cine, Derechos Humanos">
 
     <title>ContrapiKado</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/icons/faviconContrapikado.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,53 +16,91 @@
 <body>
     <header>
         <div>
-            <img src="#" alt="logo de contrapikado">
+            <img src="./assets/icons/Logo_Contrapikado.svg" alt="logo de contrapikado">
         </div>
         <nav class="nav">
             <ul>
-                <li>Inicio</li>
-                <li>Ficción</li>
-                <li>Documental</li>
-                <li>Otro</li>
-                <li>Otro 2</li>
+                <li id="ficcion">Ficción</li>
+                <li id="documental">Documental</li>
+                <li id="largometraje">Largometrajes</li>
+                <li id="cortometrajes">Cortometrajes</li>
             </ul>
         </nav>
+        <div class="perfil__usuario"> </div>
     </header>
 
-    <main>
-        <section>
-            <img src="#" alt="portada">
-        </section>
-        <section class="catalogos">
-            <article>
-                <img src="#" alt="">
-                <h2>Catálogo 1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laborum ipsum! Inventore quidem
-                    velit
-                    autem.</p>
-            </article>
+    <section>
+        <div>
+            <form id="formulario">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
-            <article>
-                <img src="#" alt="">
-                <h2>Catálogo 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laborum ipsum! Inventore quidem
-                    velit
-                    autem.</p>
-            </article>
-
-            <article>
-                <img src="#" alt="">
-                <h2>Catálogo 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laborum ipsum! Inventore quidem
-                    velit
-                    autem.</p>
-            </article>
-        </section>
+    <main class="main">
+        <div class="cards__peliculas">
+            <h2>A NEW HOME</h2>
+            <img src="./assets/img/28.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>30 AÑOS DE OSCURIDAD</h2>
+            <img src="./assets/img/29.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>EL OTRO LADO DE TODO</h2>
+            <img src="./assets/img/30.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>CHIKE</h2>
+            <img src="./assets/img/31.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>GUARANÍ</h2>
+            <img src="./assets/img/32.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>BOLISHOPPING</h2>
+            <img src="./assets/img/33.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>EN LA CALLE</h2>
+            <img src="./assets/img/34.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
+        <div class="cards__peliculas">
+            <h2>LES MISERABLES</h2>
+            <img src="./assets/img/35.webp" alt="texto alternativo">
+            <p>Sinopsis | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi natus esse eaque
+                aliquam impedit similique consequatur, porro quam sapiente doloremque sed, ad alias nam.</p>
+                <button>Ver</button><button>Favoritos</button>
+        </div>
     </main>
 
 
-    <footer>
-
+    <footer class="footer">
+        <p>Contra Pikado</p>
     </footer>
 
 

@@ -1,0 +1,18 @@
+{
+    "titulo": "El Padrino",
+    "director": "Francis Ford Coppola",
+    "año": 1972,
+    "genero": ["Drama", "Crimen"],
+    "sinopsis": "La historia de la familia Corleone, una de las más poderosas familias de la mafia en Nueva York.",
+    "reparto": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "calificacion": "R",
+    "duracion": 175,
+    "imagen": "url_del_poster_el_padrino.jpg",
+    "trailer": "url_del_trailer_el_padrino.mp4",
+    "puntuacion": 9.2,
+    "idioma": {
+        "audio": ["Inglés", "Español"],
+        "subtitulos": ["Español", "Francés"]
+    },
+    "enlace": "url_de_ver_la_pelicula_en_linea"
+}
