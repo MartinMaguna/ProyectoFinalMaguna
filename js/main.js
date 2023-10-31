@@ -99,7 +99,7 @@ const peliculas = [
     },
 ];
 
-// Puedes acceder a los elementos del arreglo de esta manera:
+// Acceder a los elementos del arreglo:
 //document.write(peliculas[0].titulo); // Imprimirá "El Padrino"
 //console.log(peliculas[3].director); // Imprimirá "Damien Chazelle"
 //console.log(peliculas[6]); // Imprimirá "Avatar"
